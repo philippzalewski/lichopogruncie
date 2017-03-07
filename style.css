@@ -1,0 +1,968 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+@import url('https://fonts.googleapis.com/css?family=Exo+2:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&subset=latin-ext,vietnamese');
+
+
+a:link, a:visited {
+	color: #df7028;
+	font-family: 'Exo 2', sans-serif;
+	text-decoration: none;
+}
+
+.button-hover {
+	float: none;
+	text-align: center;
+}
+
+.bs-example-navbar-collapse-1 {
+	color: #000000;
+}
+
+.container-video {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	padding: 50px 100px 50px 100px;
+}
+
+.unilogo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+#iconlead {
+	padding: 40px 40px 40px 40px;
+}
+
+.univ {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+
+[class*="icon-btn-"] {
+	border: 0;
+	width: 40px;
+	height: 40px;
+	background-color: #df7028;
+	color: white;
+	border-radius: 50%;
+	cursor: pointer;
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+	margin: 10px;
+}
+[class*="icon-btnn-"] {
+	width: 75px;
+	height: 75px;
+	background-color: #df7028;
+	color: white;
+	border-radius: 20%;
+	margin-top: 10px;
+	cursor: pointer;
+	font-size: 40px;
+	line-height: 75px;
+	text-align: center;
+}
+
+
+#universe {
+	padding: 20px;
+}
+
+.slogan {
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	top: 150px;
+	transform: translateX(-50%);
+	max-width: 100%;
+}
+
+.slogan h1 {
+	padding: 15px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 54px;
+	color: #FFFFFF;
+	text-align: center;
+	padding-left: 60px;
+	font-weight: 300;
+	background: rgba(0, 0, 0, .7);
+}
+
+.slogan small {
+	color: #FFFFFF;
+	font-size: 28px;
+	font-weight: 200;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #df7028;
+	font-family: 'Exo 2', sans-serif;
+	text-decoration: none;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color: #df7028;
+	color: #000000;
+	font-family: 'Exo 2', sans-serif;
+	margin-left: 20px;
+}
+
+
+
+.container-nav {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #FFFFCC;
+	position: fixed;
+	z-index: 1;
+	color: #df7028;
+	font-family: 'Exo 2', sans-serif;
+	text-decoration: none;
+	height: 50px;
+}
+
+.container-carousel {
+	width: 100%
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.navbar {
+	background-color: #000000;
+	color: #FFFFFF;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	border: none;
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	padding-left: 40px;
+}
+
+body {
+	background-color: #000000;
+	font-family: 'Exo 2', sans-serif;
+	color: #ffffff;
+}
+
+.bg-copyright {
+	text-align: center;
+	color: #FFFFFF
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 200;
+}
+
+
+/*
+.menuflex {
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-around;
+	justify-content: -webkit-space-around;
+	align-items: center;
+	align-items: -webkit-center;
+	flex-direction: row-reverse;
+	flex-direction: -webkit-row-reverse;
+}
+
+*/
+
+.universum {
+	padding: 20px;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.stopka {
+	text-align: center;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+/*
+.hero {
+	background: url(http://www.lesne-licho.pl/images/background-lesne-licho.jpg);
+	box-sizing: border-box;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	max-width: 100%;
+}
+*/
+
+/*
+.slogan-bottom {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: rgba(0,0,0,0.5);
+	
+}
+
+.hero2-slogan-readmore {
+	font-family: 'Quicksand', sans-serif;
+	padding-left: 60px;
+	color: #FFFFFF;
+	font-size: 14px;
+	text-align: left;
+	font-weight: 600;
+	margin-bottom: 50px;
+}
+*/
+
+[class*="col-"] {
+	float: left;
+	width: 100%;
+	padding: 0px;
+	}
+	
+.row:before, 
+.row:after {
+    content:"";
+    display: table ;
+    clear:both;
+ 	}
+
+@media (max-width: 767px) {
+	.col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+	
+
+	#icontitle {
+	font-weight: 600;
+	font-size: 20px;
+	font-family: 'Exo 2', sans-serif;
+	color: #df7028;
+	text-align: center;
+}
+
+	.hero {
+		height: 200px;
+	}
+	
+	.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+	
+	.logo {
+	padding-left: 5px;
+	padding-right: 0px;
+	}
+	
+	.paddingbottom {
+		padding: 10px 10px 10px 10px;
+		text-align: center;	
+	}
+
+	
+	
+	
+	.czolem {
+		background-color: #000000;
+	}
+	
+	.row {
+		text-align: center;
+		margin; 0 auto;
+	}
+	
+	.gallery .obrazki {
+		margin: 0 auto;
+		width: 100%;
+		height: auto;
+}
+
+	.team {
+		border: 0;
+		margin: 0 auto;
+		color: white;
+		margin-top: 20px;
+		cursor: pointer;
+		font-size: 40px;
+		text-align: center;
+		line-height: 35px;
+	}
+
+	[class*="team-"] {
+		border: 0;
+		margin: 0 auto;
+		color: white;
+		margin-top: 20px;
+		cursor: pointer;
+		font-size: 40px;
+		text-align: center;
+		line-height: 15px;
+		background-color: rgba(black, 0.5);
+	}
+	
+	#contact-title {
+		font-size: 24px;
+		color: #ffffff;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: 500;
+		padding-right: 0px;
+		text-align: center;
+		text-decoration: underline;
+	}
+	
+	#somethingnow-title {
+		font-size: 24px;
+		color: #ffffff;
+		font-family: 'Exo 2', sans-serif;
+		text-align: center;
+		font-weight: 500;
+		text-align: center;
+	}
+
+	#details-small {
+		font-size: 14px;
+		line-height: 20px;
+		color: #FFFFFF;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: 200;
+		text-align: center;
+		padding: 0px 30px 0px 30px; 
+	}
+	
+	#footer-small {
+		font-size: 14px;
+		line-height: 20px;
+		color: #FFFFFF;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: 200;
+		text-align: center;
+		padding: 0px 30px 0px 30px; 
+	}
+	
+	
+	
+	#universe-small {
+		font-size: 14px;
+		line-height: 20px;
+		color: #FFFFFF;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: 200;
+		text-align: center;
+		padding: 0px 30px 0px 30px; 
+	}
+	
+	
+	#details-small-bold {
+		font-size: 14px;
+		line-height: 20px;
+		color: #FFFFFF;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: 500;
+		text-align: center;
+		padding: 0px 100px 0px 100px; 
+	}
+	
+	#footer-small-bold {
+		font-size: 14px;
+		line-height: 20px;
+		color: #FFFFFF;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: 500;
+		text-align: center;
+		padding: 0px 100px 0px 100px; 
+	}
+	
+	
+	.hero2 {
+		background: url(http://www.lesne-licho.pl/images/lesne-licho-2.jpg);
+		box-sizing: border-box;
+		background-size: cover;
+		background-position: center;
+		overflow: hidden;
+		max-width: 100%;
+		height: 200px;
+		}
+
+	#hero2-slogan-title {
+		font-size: 14px;
+		color: #FFFFFF;
+		text-align: center;
+		padding-left: 10px;
+		font-family: 'Quicksand', sans-serif;
+		font-weight: 300;
+		line-height: 24px;
+	
+	}
+
+	#hero2-slogan-small {
+		font-size: 10px;
+		padding-left: 10px;
+		color: #FFFFFF;
+		font-family: 'Quicksand', sans-serif;
+		text-align: center;
+		font-weight: 500;
+		line-height: 10px;
+		margin-top: -16px;
+		display: none;
+	}
+	
+	.slogan-bottom {
+		background-color: rgba(0,0,0, 0.7);
+		color: #ffffff;
+		max-width: 100%
+		height: auto;
+		font-family: 'Open Sans', sans-serif;
+		padding: 20px 20px 20px 20px;
+		margin-top: 50px;
+		line-height: 65px;
+	}
+	
+	.menuitems {
+	color: #df7028;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 24px;
+	padding-right: 10px;
+	text-align: center;
+	font-weight: 400;
+	
+}
+
+.universum {
+	padding: 20px;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+	
+}
+
+@media(min-width: 768px) and (max-width: 1199px) {
+	.col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+    
+    .hero {
+		height: 600px;
+	}
+	
+	.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+	
+	#icontitle {
+	font-weight: 600;
+	font-size: 26px;
+	font-family: 'Exo 2', sans-serif;
+	color: #df7028;
+	text-align: center;
+}
+	
+    
+    .logo {
+	padding-left: 20px;
+	padding-right: 0px;
+}
+    
+    .team {
+		border: 0;
+		width: 140px;
+		margin: 0 auto;
+		color: white;
+		margin-top: 20px;
+		cursor: pointer;
+		font-size: 40px;
+		text-align: center;
+		line-height: 352x;
+	}
+
+	[class*="team-"] {
+		border: 0;
+		width: 140px;
+		margin: 0 auto;
+		color: white;
+		margin-top: 20px;
+		cursor: pointer;
+		font-size: 40px;
+		text-align: center;
+		line-height: 35px;
+		background-color: rgba(black, 0.5);
+	}
+
+	.menuitems {
+		color: #df7028;
+		font-family: 'Exo 2', sans-serif;
+		font-size: 30px;
+		line-height: 40px;
+		font-weight: 400;
+		max-width: 100%;
+	}
+
+   	#hero2-slogan-title {
+		font-size: 54px;
+		color: #FFFFFF;
+		text-align: left;
+		padding-left: 60px;
+		font-family: 'Quicksand', sans-serif;
+		font-weight: 300;
+	
+	}
+
+	#hero2-slogan-small {
+		font-size: 12px;
+		padding-left: 60px;
+		color: #FFFFFF;
+		font-family: 'Quicksand', sans-serif;
+		text-align: left;
+		font-weight: 500;
+		line-height: 20px;
+		margin-top: -40px;
+	}
+	
+	.slogan-bottom {
+		float: left;
+		background-color: rgba(0,0,0, 0.7);
+		color: #ffffff;
+		max-width: 800px;
+		font-family: 'Open Sans', sans-serif;
+		padding: 60px 60px 60px 40px;
+		position: relative;
+		top:20%;
+		bottom:25%;
+		line-height:65px;
+	}
+	
+	#somethingnow-title {
+		font-size: 56px;
+		color: #ffffff;
+		font-family: 'Exo 2', sans-serif;
+		text-align: center;
+		font-weight: 300;
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+	
+	#contact-title {
+		font-size: 36px;
+		color: #ffffff;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: 500;
+		padding-left: 60px;
+		padding-right: 0px;
+		text-decoration: underline;
+	}
+	
+	#details-small {
+		font-size: 16px;
+		line-height: 25px;
+		color: #FFFFFF;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: 200;
+		text-align: center;
+	}
+	
+	#footer-small {
+		font-size: 16px;
+		line-height: 25px;
+		color: #FFFFFF;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: 200;
+		text-align: center;
+	}
+	
+	#universe-small {
+		font-size: 16px;
+		line-height: 25px;
+		color: #FFFFFF;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: 200;
+		text-align: center;
+	}
+	
+	
+	#details-small-bold {
+		font-size: 16px;
+		line-height: 25px;
+		color: #FFFFFF;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: 500;
+		text-align: center;
+	}
+	
+	#footer-small-bold {
+		font-size: 16px;
+		line-height: 25px;
+		color: #FFFFFF;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: 500;
+		text-align: center;
+	}
+	
+	.hero2 {
+		background: url(http://www.lesne-licho.pl/images/lesne-licho-2.jpg);
+		box-sizing: border-box;
+		background-size: cover;
+		background-position: center;
+		overflow: hidden;
+		max-width: 100%;
+		height: 600px;
+	}
+   
+	#contact-title {
+		font-size: 24px;
+		color: #ffffff;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: 500;
+		text-align: center;
+		text-decoration: underline;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+   
+   	#details-small {
+		font-size: 16px;
+		line-height: 25px;
+		color: #FFFFFF;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: 200;
+		text-align: center;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	#footer-small {
+		font-size: 16px;
+		line-height: 25px;
+		color: #FFFFFF;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: 200;
+		text-align: center;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	
+
+	#universe-small {
+		font-size: 16px;
+		line-height: 25px;
+		color: #FFFFFF;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: 200;
+		text-align: left;
+		padding-left: 40px;
+	}
+	
+	
+	#details-small-bold {
+		font-size: 16px;
+		line-height: 25px;
+		color: #FFFFFF;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: 400;
+		text-align: center;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	
+	#footer-small-bold {
+		font-size: 16px;
+		line-height: 25px;
+		color: #FFFFFF;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: 400;
+		text-align: left;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+   
+	}
+
+@media(min-width: 1200px) {
+	.col-1 {width:8.33%;}
+	.col-2 {width:16.66%;}
+	.col-3 {width:25%;}
+	.col-4 {width:33.33%;}
+	.col-5 {width:41.66%;}
+	.col-6 {width:50%;}
+	.col-7 {width:58.33%;}
+	.col-8 {width:66.66%;}
+	.col-9 {width:75%;}
+	.col-10 {width:83.33%;}
+	.col-11 {width:91.66%;}
+	.col-12 {width:100%;}
+	.col13 {width:20%;}
+	.col14 {width:40%;}
+	
+	.oferta {
+		padding-top: 40px 40px 40px 40px;
+	}
+	
+	.videoWrapper {
+ padding-bottom: 25px;
+ padding-top: 25px;
+ padding-left: 20%;
+}
+
+.videoWrapper iframe {
+ width: 853px;
+ height: 480px;
+}
+	
+	.czolem {
+	background: #000000;
+	float: right;
+	}
+	
+	.logo {
+	padding-left: 60px;
+	padding-right: 0px;
+}
+
+
+	#icontitle {
+	font-weight: 600;
+	font-size: 30px;
+	font-family: 'Exo 2', sans-serif;
+	color: #df7028;
+	text-align: center;
+}
+	
+	.stowarzyszenie {
+		padding: 30px 100px 80px 100px;
+	}
+	
+	
+	.bg-footer {
+		padding: 30px 100px 80px 100px;
+	}
+
+	#somethingnow-title {
+		font-size: 56px;
+		color: #ffffff;
+		font-family: 'Exo 2', sans-serif;
+		text-align: center;
+		font-weight: 300;
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+	
+	#contact-title {
+		font-size: 36px;
+		color: #ffffff;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: 500;
+		padding-left: 60px;
+		padding-right: 0px;
+		text-decoration: underline;
+	}
+	
+	#details-small {
+		font-size: 16px;
+		line-height: 25px;
+		color: #FFFFFF;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: 200;
+		text-align: center;
+		padding: 0px 100px 0px 100px; 
+	}
+	
+	#details-small-bold {
+		font-size: 20px;
+		line-height: 25px;
+		color: #FFFFFF;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: 600;
+		text-align: center;
+		padding: 0px 60px 0px 60px; 
+	}
+	
+	
+	.rightcolumntext {
+		padding-top: 160px;
+	}
+	
+	.gallery .obrazki  {
+		float: left;
+		width: 100%;
+		height: auto;
+	}
+
+	.team {
+		border: 0;
+		/* width: 150px;
+		height: 150px; */
+		margin: 0 auto;
+		color: white;
+		/* border-radius: 50%; */
+		margin-top: 50px;
+		cursor: pointer;
+		font-size: 40px;
+		text-align: center;
+		line-height: 352x;
+	}
+
+	[class*="team-"] {
+		border: 0;
+		/* width: 150px;
+		height: 150px; */
+		margin: 0 auto;
+		color: white;
+		/* border-radius: 50%; */
+		margin-top: 50px;
+		cursor: pointer;
+		font-size: 40px;
+		text-align: center;
+		line-height: 352x;
+		background-color: rgba(black, 0.5);
+	}
+
+
+	#contactbold {
+		color: #FFFFFF;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: 600;
+		font-size: 14px;
+	}
+
+	#contactlight {
+		color: #FFFFFF;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: 400;
+		font-size: 12px;
+	}
+	
+	.floatleft {
+		float: left;
+		color: #FFFFFF;
+		font-family: 'Exo 2', sans-serif;
+		font-size: 24px;
+	}
+	
+	.hero2 {
+		background: url(http://www.lesne-licho.pl/images/lesne-licho-2.jpg);
+		box-sizing: border-box;
+		background-size: cover;
+		background-position: center;
+		overflow: hidden;
+		max-width: 100%;
+		height: 600px;
+	}
+
+	#hero2-slogan-title {
+		font-size: 54px;
+		color: #FFFFFF;
+		text-align: left;
+		padding-left: 60px;
+		font-family: 'Quicksand', sans-serif;
+		font-weight: 300;
+	
+	}
+
+	#hero2-slogan-small {
+		font-size: 32px;
+		padding-left: 60px;
+		color: #FFFFFF;
+		font-family: 'Quicksand', sans-serif;
+		text-align: left;
+		font-weight: 300;
+		line-height: 20px;
+		margin-top: 10px;
+	}
+	
+	.slogan-bottom {
+		float: left;
+		background-color: rgba(0,0,0, 0.7);
+		color: #ffffff;
+		max-width: 600px;
+		font-family: 'Open Sans', sans-serif;
+		padding: 60px 60px 60px 40px;
+		position: relative;
+		top:30%;
+		bottom:25%;
+		line-height:65px;
+	}
+
+	.menuitems {
+		color: #df7028;
+		font-family: 'Exo 2', sans-serif;
+		font-size: 24px;
+		padding-right: 10px;
+		font-weight: 400;
+		text-align: center;	
+	}
+	
+	.footercentrum {
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	
+	.padding-footer-left {
+		padding: 50px 0px 50px 100px;
+	}
+	
+	.padding-footer-right {
+		padding: 50px 100px 50px 0px;
+	}
+	
+	
+	.paddingtop {
+		padding-top: 70px;
+	}
+	
+	.paddingbottom {
+		padding: 30px 50px 80px 100px;
+		text-align: center;	
+	}
+	
+	.universum {
+		padding-bottom: 60px;
+		margin: 0 auto;
+		max-width: 100%;
+}
+}
+
+
